@@ -1,0 +1,117 @@
+:root {
+  --primary-text-color: #757575;
+  --second-font-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --bg-grey-color: #2f303a;
+  --secondary-section-background: #f5f4fa;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+  width: 1600px;
+  text-align: center;
+  margin: auto;
+}
+
+.list {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--second-font-color);
+}
+
+/* основний колір тексту #212121  */
+/* вторинний колір тексту #757575 */
+/* білий колір FFFFFF */
+/* акцентний колір #2196F3 */
+/* фон героя 2F303A */
+/* колір тексту контактів у футері rgba(255, 255, 255, 0.6) */
+/* фон шапки background: #FFFFFF; */
+/* колір фону білий #E5E5E5 */
+/* вторинний фон: #F5F4FA; */
+
+/* ХЕДЕР */
+.logo {
+  color: var(--second-font-color);
+}
+
+.first-part-logo {
+  color: var(--accent-color);
+}
+
+.page-nav__link {
+  color: var(--second-font-color);
+}
+
+.page-nav__link:hover,
+.page-nav__link:focus {
+  color: var(--accent-color);
+}
+
+.page-nav__link.current {
+  color: var(--accent-color);
+}
+
+.contacts-link {
+  color: var(--primary-text-color);
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-color);
+}
+
+/* ГЕРОЙ */
+.hero-title {
+  color: var(--primary-white-color);
+}
+
+.hero {
+  background-color: var(--bg-grey-color);
+  height: 600px;
+}
+
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  border: none;
+  width: 200px;
+  height: 50px;
+}
+
+/* СЕКЦІЯ ОСОБЛИВОСТІ */
+
+/* СЕКЦІЯ ПРО КОМАНДУ */
+
+.section.team {
+  background-color: var(--secondary-section-background);
+}
+
+/* ФУТЕР */
+.footer {
+  background-color: var(--bg-grey-color);
+  height: 252px;
+}
+
+/* ПОРТФОЛІО */
+/* КНОПКИ ПОРТФОЛІО*/
+.filter-list-button {
+  color: var(--second-font-color);
+  background-color: var(--secondary-section-background);
+  border: none;
+}
+
+.filter-list-button:hover {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  border: none;
+}
