@@ -107,6 +107,7 @@ body {
 
 /* СЕКЦІЯ ОСОБЛИВОСТІ */
 .section-title {
+  color: var(--second-font-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -115,6 +116,7 @@ body {
 }
 
 .key-position-title {
+  color: var(--second-font-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -135,6 +137,7 @@ body {
 }
 
 .worker-list__title {
+  color: var(--second-font-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19px;
